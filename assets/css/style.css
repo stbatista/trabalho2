@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.mg-5{
+    margin: 5%;
+}
+.mg-5{
+    margin: 10%;
+}
+
+.mgt-5{
+    margin-top: 5%;
+}
+
+.mgt-5{
+    margin-top: 10%;
+}
+
+.section-first{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image-side{
+    max-width: 700px;
+}
+
+.img-left-side{
+    width:100%
+}
+.text-side{
+    max-width: 700px;
+}
+
+.right-side-text{
+    text-align: center;
+    font-weight: 700;
+}
+
+
+body {
+    background-image: linear-gradient(180deg, #eee, #fff 100px, #fff);
+  }
+  
+.container {
+    max-width: 960px;
+  }
+  
+.pricing-header {
+    max-width: 700px;
+  }
+.fotos{
+    border: 3px solid #0D6EFD;
+    border-radius: 20px;
+    width: 160px;
+    height: 120px;
+}
+
+@media (max-width: 1000px)
+{
+  .section-first
+   {
+    flex-direction: column;
+   }
+   .text-side{
+    width:100%;
+    padding:30px;
+    text-align:center;
+   }
+   .image-side{
+    width:100%;
+
+   }
+}
+
+@media (max-width: 740px)
+{
+   .text-side{
+
+    padding:0px;
+   }
+    
+}
